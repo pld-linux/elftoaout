@@ -5,7 +5,8 @@ Version:	2.3
 Release:	1
 License:	GPL
 Group:		Applications/System
-Source0:	ftp://sunsite.mff.cuni.cz/OS/Linux/Sparc/local/elftoaout/%{name}-%{version}.tgz
+Source0:	ftp://sunsite.icm.edu.pl/vol/rzm6/linux-sparc/elftoaout/%{name}-%{version}.tgz
+# Source0-md5:	be3bd6f7ba8ae107cbdbaa820ba64f86
 ExclusiveArch:	sparc sparc64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
