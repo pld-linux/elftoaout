@@ -1,5 +1,5 @@
 Summary:	A utility for converting ELF binaries to a.out binaries
-Summary:	Narzêdzie do konwersji binariów ELF do a.out
+Summary(pl):	Narzêdzie do konwersji binariów ELF do a.out
 Name:		elftoaout
 Version:	2.3
 Release:	1
