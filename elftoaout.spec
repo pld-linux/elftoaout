@@ -17,6 +17,13 @@ can netboot the image.
 If you're installing Red Hat Linux on a SPARC, you'll need to install the
 elftoaout package.
 
+%description -l pl
+Narzêdzie elftoaout konwertuje statyczne binaria ELF do statycznych binariów
+a.out. Je¶li u¿ywacie systemu opartego na ELF-ie na SPARC-u, bêdziecie musieli
+przekonwertowaæ obraz kernela za pomoc± elftoaout, aby SPARC PROM móg³
+go uruchomiæ z sieci.
+Je¶li instaluje siê Linuksa na SPARC-u, nale¿y zainstalowaæ pakiet elftoaout.
+
 %prep
 %setup -q
 
