@@ -1,7 +1,7 @@
-Summary:	A utility for converting ELF binaries to a.out binaries.
+Summary:	A utility for converting ELF binaries to a.out binaries
 Name:		elftoaout
-Version:	2.2
-Release:	3
+Version:	2.3
+Release:	1
 License:	GPL
 Group:		Utilities/System
 Group(pl):	Narzêdzia/System
@@ -29,7 +29,7 @@ na SPARC-u, nale¿y zainstalowaæ pakiet elftoaout.
 %setup -q
 
 %build
-%{__make}
+%{__make} CFLAGS="$RPM_OPT_FLAGS"
 
 %install
 rm -rf $RPM_BUILD_ROOT
