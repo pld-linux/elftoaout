@@ -29,7 +29,7 @@ na SPARC-u, nale¿y zainstalowaæ pakiet elftoaout.
 %setup -q
 
 %build
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
