@@ -6,7 +6,7 @@ ExclusiveArch: sparc sparc64
 Copyright: GPL
 Group: System Environment/Kernel
 Source: ftp://sunsite.mff.cuni.cz/OS/Linux/Sparc/local/elftoaout/elftoaout-2.2.tgz
-BuildRoot: /var/tmp/%{name}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The elftoaout utility converts a static ELF binary to a static a.out
