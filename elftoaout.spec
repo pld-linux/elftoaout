@@ -2,13 +2,11 @@ Summary:	A utility for converting ELF binaries to a.out binaries
 Summary(pl):	Narzêdzie do konwersji binariów ELF do a.out
 Name:		elftoaout
 Version:	2.3
-Release:	1
-License:	GPL
+Release:	1.1
+License:	GPL v2
 Group:		Applications/System
 Source0:	ftp://sunsite.icm.edu.pl/site/linux-sparc/elftoaout/%{name}-%{version}.tgz
-Patch0:		%{name}-gkh.patch
 # Source0-md5:	be3bd6f7ba8ae107cbdbaa820ba64f86
-ExclusiveArch:	sparc sparc64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -29,7 +27,6 @@ na SPARC-u, nale¿y zainstalowaæ pakiet elftoaout.
 
 %prep
 %setup -q
-%patch0
 
 %build
 %{__make} \
