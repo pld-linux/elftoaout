@@ -1,5 +1,5 @@
 Summary:	A utility for converting ELF binaries to a.out binaries
-Summary(pl):	Narzêdzie do konwersji binariów ELF do a.out
+Summary(pl.UTF-8):   NarzÄ™dzie do konwersji binariÃ³w ELF do a.out
 Name:		elftoaout
 Version:	2.3
 Release:	1.1
@@ -18,12 +18,12 @@ SPARC PROM can netboot the image.
 If you're installing Red Hat Linux on a SPARC, you'll need to install
 the elftoaout package.
 
-%description -l pl
-Narzêdzie elftoaout konwertuje statyczne binaria ELF do statycznych
-binariów a.out. Je¶li u¿ywacie systemu opartego na ELF-ie na SPARC-u,
-bêdziecie musieli przekonwertowaæ obraz kernela za pomoc± elftoaout,
-aby SPARC PROM móg³ go uruchomiæ z sieci. Je¶li instaluje siê Linuksa
-na SPARC-u, nale¿y zainstalowaæ pakiet elftoaout.
+%description -l pl.UTF-8
+NarzÄ™dzie elftoaout konwertuje statyczne binaria ELF do statycznych
+binariÃ³w a.out. JeÅ›li uÅ¼ywacie systemu opartego na ELF-ie na SPARC-u,
+bÄ™dziecie musieli przekonwertowaÄ‡ obraz kernela za pomocÄ… elftoaout,
+aby SPARC PROM mÃ³gÅ‚ go uruchomiÄ‡ z sieci. JeÅ›li instaluje siÄ™ Linuksa
+na SPARC-u, naleÅ¼y zainstalowaÄ‡ pakiet elftoaout.
 
 %prep
 %setup -q
